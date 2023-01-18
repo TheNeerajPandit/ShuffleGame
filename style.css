@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(47deg, rgba(150,59,98,1) 0%, rgba(119,113,113,1) 100%);
+    background-size: fill;
+}
+
+.top p{
+    line-height: 2rem;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.top h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+.frame{
+    margin: 105px auto 20px;
+    width: 296px;
+    height: 220px;
+    border: 4px black solid;
+    padding: 8px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.play{
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+#startGame{
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+
+.btn{
+    margin: 3px 3px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(61, 54, 54);
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    border-color: rgb(228, 228, 228);
+}
+
+.clicked{
+    color: rgb(117, 117, 117);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.title{
+    text-align: center;
+    color: white;
+}
+.description{
+    text-align: center;
+    color: gray;
+}
+
+
+.credits, .top{
+    padding: 20px 20px 10px 20px;
+    background-color: black;
+    text-align: center;
+    color: gray;
+}
+.credits a{
+    color: #ccc;
+}
+.credits b{
+    color: white;
+}
+
+.credits p{
+
+        line-height: 2rem;
+}
+
+.credits{
+    font-family: 'Poppins', sans-serif;
+
+}
